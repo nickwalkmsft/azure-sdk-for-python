@@ -2603,7 +2603,7 @@ class VirtualMachineImageResource(SubResource):
     :vartype location: str
     :ivar tags: Specifies the tags that are assigned to the virtual machine. For more information
      about using tags, see `Using tags to organize your Azure resources
-     <https://docs.microsoft.com/azure/azure-resource-manager/resource-group-using-tags.md>`_.
+     <https://learn.microsoft.com/azure/azure-resource-manager/management/tag-resources>`_.
     :vartype tags: dict[str, str]
     """
 
@@ -2637,7 +2637,7 @@ class VirtualMachineImageResource(SubResource):
         :paramtype location: str
         :keyword tags: Specifies the tags that are assigned to the virtual machine. For more
          information about using tags, see `Using tags to organize your Azure resources
-         <https://docs.microsoft.com/azure/azure-resource-manager/resource-group-using-tags.md>`_.
+         <https://learn.microsoft.com/azure/azure-resource-manager/management/tag-resources>`_.
         :paramtype tags: dict[str, str]
         """
         super().__init__(id=id, **kwargs)
@@ -2659,7 +2659,7 @@ class VirtualMachineImage(VirtualMachineImageResource):
     :vartype location: str
     :ivar tags: Specifies the tags that are assigned to the virtual machine. For more information
      about using tags, see `Using tags to organize your Azure resources
-     <https://docs.microsoft.com/azure/azure-resource-manager/resource-group-using-tags.md>`_.
+     <https://learn.microsoft.com/azure/azure-resource-manager/management/tag-resources>`_.
     :vartype tags: dict[str, str]
     :ivar plan: Used for establishing the purchase context of any 3rd Party artifact through
      MarketPlace.
@@ -2706,7 +2706,7 @@ class VirtualMachineImage(VirtualMachineImageResource):
         :paramtype location: str
         :keyword tags: Specifies the tags that are assigned to the virtual machine. For more
          information about using tags, see `Using tags to organize your Azure resources
-         <https://docs.microsoft.com/azure/azure-resource-manager/resource-group-using-tags.md>`_.
+         <https://learn.microsoft.com/azure/azure-resource-manager/management/tag-resources>`_.
         :paramtype tags: dict[str, str]
         :keyword plan: Used for establishing the purchase context of any 3rd Party artifact through
          MarketPlace.

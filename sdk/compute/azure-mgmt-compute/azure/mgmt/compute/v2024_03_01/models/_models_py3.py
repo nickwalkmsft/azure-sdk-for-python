@@ -10012,7 +10012,7 @@ class VirtualMachineImageResource(SubResource):
     :vartype location: str
     :ivar tags: Specifies the tags that are assigned to the virtual machine. For more information
      about using tags, see `Using tags to organize your Azure resources
-     <https://docs.microsoft.com/azure/azure-resource-manager/resource-group-using-tags.md>`_.
+     <https://learn.microsoft.com/azure/azure-resource-manager/management/tag-resources>`_.
     :vartype tags: dict[str, str]
     :ivar extended_location: The extended location of the Virtual Machine.
     :vartype extended_location: ~azure.mgmt.compute.v2024_03_01.models.ExtendedLocation
@@ -10050,7 +10050,7 @@ class VirtualMachineImageResource(SubResource):
         :paramtype location: str
         :keyword tags: Specifies the tags that are assigned to the virtual machine. For more
          information about using tags, see `Using tags to organize your Azure resources
-         <https://docs.microsoft.com/azure/azure-resource-manager/resource-group-using-tags.md>`_.
+         <https://learn.microsoft.com/azure/azure-resource-manager/management/tag-resources>`_.
         :paramtype tags: dict[str, str]
         :keyword extended_location: The extended location of the Virtual Machine.
         :paramtype extended_location: ~azure.mgmt.compute.v2024_03_01.models.ExtendedLocation
@@ -10075,7 +10075,7 @@ class VirtualMachineImage(VirtualMachineImageResource):  # pylint: disable=too-m
     :vartype location: str
     :ivar tags: Specifies the tags that are assigned to the virtual machine. For more information
      about using tags, see `Using tags to organize your Azure resources
-     <https://docs.microsoft.com/azure/azure-resource-manager/resource-group-using-tags.md>`_.
+     <https://learn.microsoft.com/azure/azure-resource-manager/management/tag-resources>`_.
     :vartype tags: dict[str, str]
     :ivar extended_location: The extended location of the Virtual Machine.
     :vartype extended_location: ~azure.mgmt.compute.v2024_03_01.models.ExtendedLocation
@@ -10157,7 +10157,7 @@ class VirtualMachineImage(VirtualMachineImageResource):  # pylint: disable=too-m
         :paramtype location: str
         :keyword tags: Specifies the tags that are assigned to the virtual machine. For more
          information about using tags, see `Using tags to organize your Azure resources
-         <https://docs.microsoft.com/azure/azure-resource-manager/resource-group-using-tags.md>`_.
+         <https://learn.microsoft.com/azure/azure-resource-manager/management/tag-resources>`_.
         :paramtype tags: dict[str, str]
         :keyword extended_location: The extended location of the Virtual Machine.
         :paramtype extended_location: ~azure.mgmt.compute.v2024_03_01.models.ExtendedLocation
